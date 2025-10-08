@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+main {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 6px;
+}
+
+/* Estilo para cabeçalho */
+th {
+    background-color: black;
+    color: white;
+}
+
+/* Cores por posição */
+tr:nth-child(2), tr:nth-child(3), tr:nth-child(4), tr:nth-child(5) {
+    background-color: #b3c6ff; /* Libertadores */
+}
+
+tr:nth-child(6) {
+    background-color: #d9e2ff; /* Pré-Libertadores */
+}
+
+tr:nth-child(7), tr:nth-child(8), tr:nth-child(9), tr:nth-child(10), tr:nth-child(11), tr:nth-child(12), tr:nth-child(13), tr:nth-child(14), tr:nth-child(15), tr:nth-child(16) {
+    background-color: #fff0d6; /* Sul-Americana */
+}
+
+tr:nth-child(17), tr:nth-child(18), tr:nth-child(19), tr:nth-child(20), tr:nth-child(21) {
+    background-color: #ffd6d6; /* Rebaixados */
+}
+
+/* Legenda */
+.legend {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.legend span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    border: 1px solid #000;
+    vertical-align: middle;
+}
+
+.lib { background-color: #b3c6ff; }
+.prelib { background-color: #d9e2ff; }
+.sula { background-color: #fff0d6; }
+.reb { background-color: #ffd6d6; }
