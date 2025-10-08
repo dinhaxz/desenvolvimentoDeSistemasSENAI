@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+}
+
+#bannerCadastro, #formularioCadastro{
+    width: 50%;
+    padding: 10px 0px;
+}
+
+#bannerCadastro{
+    background-color: blueviolet;
+}
+
+#formularioCadastro{
+background-color: rgb(65, 38, 90);
+}
