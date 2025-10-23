@@ -1,0 +1,15 @@
+#menuPc{
+    display: none;
+}
+
+#menumobile{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: var(--corprimaria);
+}
+
+#menumobile a:hover{
+    background-color: aquamarine;
+}

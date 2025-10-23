@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --corprimaria : rgb(42, 168, 241);
+}
+
+header{
+    background-color: var(--corprimaria);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+/* breakpoint-pc 
+@media screen and (min-width : 500px){
+    body{
+        background-color:azure
+    }
+    
+}  
+
+@media screen and (max-width : 600px){
+     body{
+        background-color: rgb(160, 212, 247);
+    }
+} 
+
+@media screen and (orientation: landscape){
+    body{ 
+        background-color: rgb(200, 238, 250);
+    }
+}
+
+@media screen and ( orientation: portrait){
+    body{
+        background-color: rgb(98, 137, 182);
+    }
+}
+
+@media print {   
+    body{
+        background-color: rgb(206, 234, 243);
+    }
+}*/
