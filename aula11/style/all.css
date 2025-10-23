@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: white;
+}
+
+/* cabeçalho*/
+header{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    align-items: center;
+    background-color: #2A2B2A;
+}
+
+a, h1{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 2.5px;
+}
+
+/*parte do meio*/
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+#inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#imgP{
+    width: 50%;
+    border: 2px solid rgb(189, 167, 171);
+    padding: 10px;
+    border-radius: 5px;
+}
+#imgP p{
+    margin-top: 10px; 
+}
+
+input{
+    background-color: rgb(248, 66, 96);
+    border: 1px solid rgb(139, 139, 139);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/*segunda parte do meio*/
+
+#segundaP{
+    width: 50%;
+    margin: 20px 0px;
+    display: flex;
+}
+
+#segundaP h2{
+    margin-top: 10px;
+}
+
+#resto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* terceira parte do meio*/
+
+.terceiraP{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(173, 172, 172);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#kkk{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* final */
+
+#final{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    align-items: center;
+    background-color: #2A2B2A;  
+}
+
+#final h6{
+    color: white;
+}
+

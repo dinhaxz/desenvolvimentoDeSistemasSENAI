@@ -52,3 +52,33 @@ main{
     color: var(--corPrimaria);
     border-radius: 5px;
 }
+
+.sla{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#biblioteca{
+    display: flex;
+    flex-direction: row;
+}
+
+#listaCategoria{
+    width: 30%;
+}
+
+#listaJogos tr,#listaJogos table{
+    width: 100%;
+    margin: 5px 0px;
+    border-radius: 5px;
+    background-color: rgb(192, 148, 233);
+}
+
+#listaJogos img{
+    width: 100px;
+}
+
+#listaJogos{
+    width: 70%;
+}

@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(177, 219, 255);
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(91, 143, 253);
+}
+
+a, h3{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 2.5px;
+}
+
+#menu a {
+    margin-right: 20px;
+    position: relative;
+}
+#menu a::after{
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(250, 250, 250);
+}
+
+#menu a:hover::after{
+    width: 100%;
+
+}
+
+#ladoE{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* parte do meio */
+
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: left;
+    padding: 40px 20px;
+    flex-direction: column;
+}
+
+#informacoes{
+    display: flex;
+    color: rgb(0, 49, 114);
+}
+
+#informacoes h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#informaçoes h2{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+#informacoes p{
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+}
+
+#imgPrincipal{
+    max-width: 600px;
+}
+
+#imgPrincipal:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+#titulo{
+    /* Centralizando o Texto */
+    justify-content: center;
+    align-items: center;
+    
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(91, 143, 253);
+}
+
